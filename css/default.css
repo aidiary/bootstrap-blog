@@ -23,3 +23,24 @@
     list-style: none;
     padding: 0px;
 }
+
+@media (max-width: 992px) {
+    .profile-image {
+        float: left;
+        margin-right: 15px;
+    }
+
+    .profile-content {
+        float: left;
+    }
+
+    .social-icons {
+        margin-left: 115px;
+    }
+}
+
+@media (min-width: 485px) and (max-width: 992px) {
+    .social-icons {
+        float: left;
+    }
+}
