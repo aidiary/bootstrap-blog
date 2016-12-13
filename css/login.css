@@ -1,7 +1,11 @@
+/* フォームを画面の中央にalignするために必要 */
 html, body {
     height: 100%;
 }
 
+/* max-widthを設定するとform-controlで
+　　広がったコントロールのサイズが限定される */
+/* tableとtable-cellはvertical-alignするために必要 */
 .container {
     display: table;
     max-width: 400px;
@@ -14,6 +18,7 @@ html, body {
     vertical-align: middle;
 }
 
+/* コントロールのサイズをデバッグするのに便利 */
 .box {
     border: 1px red dotted;
 }

@@ -2,6 +2,7 @@
     border: 1px red dotted;
 }
 
+/* 両端をあけるため */
 .container {
     max-width: 1000px;
 }
@@ -24,6 +25,7 @@
     padding: 0px;
 }
 
+/* 画面サイズを小さくしたときに配置を変える */
 @media (max-width: 992px) {
     .profile-image {
         float: left;
